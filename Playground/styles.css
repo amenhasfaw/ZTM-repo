@@ -5,6 +5,7 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -25,4 +26,9 @@ img{
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.wrapper{
+margin: 30px;
+width: 300px;
 }
