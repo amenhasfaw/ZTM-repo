@@ -11,7 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     margin: 0;
-    background-color: #747c45;
+    background-color: #AAAF8E;
 }
 
 #container{
@@ -28,7 +28,16 @@ img{
     width: 100%;
 }
 
-.wrapper{
+.text-wrapper, #list,#bgcolor{
 margin: 30px;
 width: 300px;
+text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+#bg{
+    box-shadow: 0px 0px 5px 5px rgb(142, 140, 140);
 }
